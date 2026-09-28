@@ -1,0 +1,72 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+
+header {
+    display: flex;
+    gap: 5%;
+    padding-bottom: 0.6%;
+    background-color: rgb(255, 145, 0);
+}
+
+section {
+    display: flex;
+    gap: 5%;
+    padding: 0.3%;
+}
+
+article {
+    background-color: rgb(255, 196, 0);
+    border-radius: 15%;
+    width: 30%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#inicio {
+    background-color: rgb(255, 196, 0);
+}
+
+#intro {
+    background-color: rgb(255, 145, 0);
+    gap: 5%;
+}
+
+#texto_intro {
+    background-color: rgb(42, 170, 255);
+    padding: 5%;
+    border-radius: 30px;
+    width: 45%;
+}
+
+#imagem {
+    width: 45%;
+}
+
+#imagem img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+#fim {
+    background-color: rgb(255, 145, 0);
+    padding: 5%;
+}
+
+#final_pagina {
+    background-color: rgb(156, 214, 253);
+    text-align: center;
+    align-content: center;
+    border-radius: 30px;
+    padding: 1%;
+    gap: 40px;
+}

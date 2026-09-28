@@ -1,0 +1,76 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+
+header{ 
+    background-color: rgb(30, 100, 200); 
+    display: flex; 
+    gap: 1350px; 
+}
+
+    #other{ 
+        display: flex; 
+        align-items: center; 
+        gap: 30px 
+    } 
+
+
+main{ 
+    background-color: rgb(100, 190, 240); 
+    padding: 30px; 
+}
+
+    #intro {
+        background-color: rgb(255, 180, 70); 
+        border-radius: 20px; 
+        width: 100%; 
+        height: 350px; 
+        align-items: center; 
+        display: flex; 
+        gap: 400px; 
+        padding-left: 10px 
+    } 
+
+    #intro h1{  font-size: 55px;
+        line-height:  0.95;
+        max-width: 550px; 
+       }
+       
+
+    #intro img{ 
+        width: 20%; 
+        height: 90%; 
+        border-radius: 30px; 
+    } 
+
+    #gal-cards{ 
+        padding: 30px; 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+        gap: 30px;
+    } 
+
+    .cards { 
+        background-color: rgb(255, 140, 0); 
+        border-radius: 30px; 
+        width: 30%; 
+        height: 400px; 
+        padding-left: 30px 
+    } 
+
+    .cards img{ 
+        width: 90%; 
+        height: 80%; 
+        border-radius: 30px; 
+    } 
+
+
+footer{ 
+    background-color: rgb(25, 45, 90);
+  }
+ footer p {
+    color: white;
+ }
