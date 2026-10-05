@@ -71,6 +71,16 @@ a {
     margin-bottom: 25px;
 }
 
+ #dowload{
+        background-color:  rgb(255, 145, 0);
+        font-size: larger;
+        display: flex;
+        align-items: center;
+        gap: 50%;
+        margin:1%;
+         border-radius: 30px;
+      }
+
 footer {
     background-color: rgb(25, 45, 90);
     padding: 3%;
